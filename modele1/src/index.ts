@@ -73,4 +73,7 @@ const newData = {
 };
 const {id, name: {firstName: myName}} = newData;
 
+//union mean or and we represent it in typescript using single | 
+//intersection means logical and, also we represent it using single &
+
 console.log(obj.name);
