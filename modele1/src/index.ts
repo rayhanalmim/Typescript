@@ -43,6 +43,13 @@ const bros1 : string[] = ['rayhan', 'al', "mim"];
 const bros2 : string[] = ['sadman', 'alvi'];
 
 bros1.push(...bros2);
+//or
+const allbros : string[] = [...bros1, ...bros2]
+
+//learn rest operator
+const mergeFriend = (...friends : string[]) =>{
+    friends.forEach(friend => console.log(`hello ${friend}`));
+}
 
 
 console.log(obj.name);
