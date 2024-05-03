@@ -19,4 +19,8 @@ const add = (num1: number, num2: number): number =>{
 
 const arr1 : string[] = ['rayhan', "al", "mim"];
 
+// tuple
+
+const studentData : [string, number] = ['rayhan', 25]
+
 console.log(obj.name);
