@@ -10,3 +10,5 @@ const obj : {
     age: 25,
     id: "222"
 }
+
+console.log(obj.name);
