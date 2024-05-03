@@ -23,7 +23,7 @@ const arr1 : string[] = ['rayhan', "al", "mim"];
 
 const studentData : [string, number] = ['rayhan', 25]
 
-//object with functions
+//object with functions --> method
 
 const gubAccounts : {
     accountName: string;
@@ -32,7 +32,7 @@ const gubAccounts : {
 } = {
     accountName: 'rayhan',
     blance: 0,
-    addBlance(amount: number){
+    addBlance(amount: number): number{
         return this.blance+amount;
     }
 }
