@@ -37,4 +37,12 @@ const gubAccounts : {
     }
 }
 
+// learn sperad operator
+
+const bros1 : string[] = ['rayhan', 'al', "mim"];
+const bros2 : string[] = ['sadman', 'alvi'];
+
+bros1.push(...bros2);
+
+
 console.log(obj.name);
