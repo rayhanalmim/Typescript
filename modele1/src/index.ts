@@ -18,6 +18,11 @@ const obj : Datatype = {
 const add = (num1: number, num2: number): number =>{
     return num1+num2;
 }
+//or
+type AddType = (num1: number, num2: number) => number;
+const Add : AddType = (num1 , num2) =>{
+    return num1+num2;
+}
 
 //array destructuring
 const arr1 : string[] = ['rayhan', "al", "mim"];
