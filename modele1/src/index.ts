@@ -17,7 +17,10 @@ const add = (num1: number, num2: number): number =>{
     return num1+num2;
 }
 
+//array destructuring
 const arr1 : string[] = ['rayhan', "al", "mim"];
+const [,,mylastname] = arr1;
+const [a, ...c] = arr1;
 
 // tuple
 
@@ -61,6 +64,6 @@ const newData = {
         lastName: 'mim'
     }
 };
-const {id, name: {firstName}} = newData;
+const {id, name: {firstName: myName}} = newData;
 
 console.log(obj.name);
