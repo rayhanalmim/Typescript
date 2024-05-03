@@ -48,8 +48,19 @@ const allbros : string[] = [...bros1, ...bros2]
 
 //learn rest operator
 const mergeFriend = (...friends : string[]) =>{
-    friends.forEach(friend => console.log(`hello ${friend}`));
+    friends.forEach((friend: String) => console.log(`hello ${friend}`));
 }
 
+
+//destructuring 
+
+const newData = {
+    id: 2225,
+    name: {
+        firstName: 'rayhan',
+        lastName: 'mim'
+    }
+};
+const {id, name: {firstName}} = newData;
 
 console.log(obj.name);
