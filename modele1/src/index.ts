@@ -17,4 +17,6 @@ const add = (num1: number, num2: number): number =>{
     return num1+num2;
 }
 
+const arr1 : string[] = ['rayhan', "al", "mim"];
+
 console.log(obj.name);
