@@ -1,6 +1,8 @@
 let course : string = 'next level web development';
 console.log(course);
 
+
+//type alias 
 type Datatype = {
     name : string;
     age: number;
