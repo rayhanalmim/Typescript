@@ -16,7 +16,19 @@
         }
     }
     const result = checkType(23) as number;
-    console.log(result);
+    const result2 = checkType('rayhan') as string;
+    // console.log(result, result2);
+
+    //interface 
+    interface Student {
+        name : string;
+        id: number;
+    }
+
+    const obj : Student = {
+        name : "rayhan",
+        id: 333,
+    }
 
     //
 }
