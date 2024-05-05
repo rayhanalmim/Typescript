@@ -23,10 +23,10 @@
 
     // genetic tuple with functions 
 
-    const geneticTupleWithFun = <T, Q>(param1: T, params2 : Q) : [T, Q] =>{
+    const geneticTupleWithFun = <T, Q extends {name: string; id: number}>(param1: T, params2 : Q) : [T, Q] =>{
         return [param1, params2];
     }
-    const createTupleWithGenFun = geneticTupleWithFun<string, number>('rayhan', 222)
+    const createTupleWithGenFun = geneticTupleWithFun<string, {name: string; id: number}>('rayhan', {name: 'alvi', id: 2222})
     console.log(createTupleWithGenFun);
 
     //
