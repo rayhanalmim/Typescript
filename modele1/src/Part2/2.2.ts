@@ -14,6 +14,7 @@
     // genetic tuple
     type Student<T, S> = [T, S];
     const student : Student<string, number> = ['rayhan', 222015010];
+    const student2 : Student<number, {name: string, id: number}> = [222, {name : "rayhan", id: 222}];
 
     //
 }
