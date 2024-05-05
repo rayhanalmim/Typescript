@@ -16,5 +16,18 @@
     const student : Student<string, number> = ['rayhan', 222015010];
     const student2 : Student<number, {name: string, id: number}> = [222, {name : "rayhan", id: 222}];
 
+    //genetic interface with obj
+
+    type Students <T> {
+        name : string;
+        info: T
+    }
+    const studentData : Students<{admissionYear: number, totalCost: string}> = {
+        name : 'rayhan',
+        info : {
+            admissionYear: 2022,
+            totalCost: "2.4l"
+        }
+    }
     //
 }
