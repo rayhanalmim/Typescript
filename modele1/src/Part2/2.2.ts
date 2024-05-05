@@ -18,7 +18,7 @@
 
     //genetic interface with obj
 
-    type Students <T> {
+    interface Students <T> {
         name : string;
         info: T
     }
