@@ -1,10 +1,18 @@
 {
     // genetic with functions
-    const createArrayWithGenetic = (params : string) : String[] =>{
+    const precreateArrayWithGenetic = (params : string) : String[] =>{
         return [params];
     }
-    const result = createArrayWithGenetic('rayhan');
+    const result = precreateArrayWithGenetic('rayhan');
     // const result2 = createArrayWithGenetic(44);  //give error for defferent type value
     console.log(result);
+
+    // make it reuseable
+    const createArrayWithGenetic = <T>(params : T) : T[] =>{
+        return [params];
+    }
+    const resultRE = createArrayWithGenetic(<string>'rayhan');
+    const resultRE2 = createArrayWithGenetic(<number>444);
+
     //
 }
