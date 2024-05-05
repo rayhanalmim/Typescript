@@ -19,5 +19,11 @@
     }
     const resultRE3 = createArrayWithGenetic(<dataType>{name: "rayhan", id: 444});
 
+    // genetic tuple with functions 
+
+    const geneticTupleWithFun = <T, Q>(param1: T, params2 : Q) : [T, Q] =>{
+        return [param1, params2];
+    }
+
     //
 }
