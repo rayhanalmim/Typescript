@@ -61,6 +61,8 @@ const mergeFriend = (...friends : string[]) =>{
     friends.forEach((friend: String) => console.log(`hello ${friend}`));
 }
 
+mergeFriend('rayhan', 'sadman', "alvi");
+
 
 //destructuring 
 
