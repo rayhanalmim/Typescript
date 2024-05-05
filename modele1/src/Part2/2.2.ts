@@ -11,5 +11,9 @@
     const IdList : GeneticArr2<number> = [3, 4, 6]
     const IdList2 : GeneticArr2<string> = ["3", "4", "6"]
 
+    // genetic tuple
+    type Student<T, S> = [T, S];
+    const student : Student<string, number> = ['rayhan', 222015010];
+
     //
 }
