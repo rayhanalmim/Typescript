@@ -13,6 +13,7 @@
     }
     const resultRE = createArrayWithGenetic(<string>'rayhan');
     const resultRE2 = createArrayWithGenetic(<number>444);
+    const resultRE3 = createArrayWithGenetic(<{name: string, id: number}>{name: "rayhan", id: 444});
 
     //
 }
