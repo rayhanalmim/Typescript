@@ -9,7 +9,15 @@
 
 
     class Student implements StudentInterface{
-        
+        pay(): void{
+
+        }
+        getBill(): void {
+            
+        }
+        printInfo(): void {
+            
+        }
     }
 
     //
