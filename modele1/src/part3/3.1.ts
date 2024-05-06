@@ -21,6 +21,10 @@
         get personId(){
             return this.id;
         }
+
+        set updateIdUsingSet(value: number) {
+            this.id = value;
+        }
     }
 
     class Teacher extends Person {
@@ -35,6 +39,7 @@
 
      const person1 = new Teacher('rayhan', 222015010, 'teacher', 2999);
 
+     person1.updateIdUsingSet = 22211111;
      const data = person1.personId;
      console.log(data);
     //  console.log(person1.role);
