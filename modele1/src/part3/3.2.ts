@@ -34,6 +34,5 @@
 
     const person1 = new Student('Rayhan', 222, 5100);
     person1.printInfo();
-    console.log('data');
     //
 }
