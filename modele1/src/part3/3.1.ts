@@ -14,6 +14,10 @@
         }
     }
 
+    // class Teacher extends Person {
+    //     constructor( selary: number){}
+    // }
+
     const person1 = new Person('rayhan', 222015010)
     const person2 = new Person('sadman', 222015011)
 
