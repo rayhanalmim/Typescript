@@ -10,7 +10,7 @@
 
     class Student implements StudentInterface{
         name : string;
-        id: number;
+        private id: number;
         dueAmount: number;
 
         constructor(name: string, id: number, due: number){
@@ -31,7 +31,7 @@
             console.log(`The student '${this.name}' ID: '${this.id}' Current due amount is : ${this.dueAmount}}`);
         }
     }
-    
+
 
     //
 }
