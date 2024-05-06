@@ -27,11 +27,13 @@
         getBill(): void {
             
         }
-        printInfo(): void {
+        printInfo() {
             console.log(`The student '${this.name}' ID: '${this.id}' Current due amount is : ${this.dueAmount}}`);
         }
     }
 
-
+    const person1 = new Student('Rayhan', 222, 5100);
+    person1.printInfo();
+    console.log('data');
     //
 }
