@@ -13,6 +13,14 @@
         public printId(){
             console.log(`the id of current student is ${this.id}`);
         }
+
+        public ModifyId(){
+            return this.id = this.id + 2222;
+        }
+
+        get personId(){
+            return this.id;
+        }
     }
 
     class Teacher extends Person {
@@ -27,7 +35,11 @@
 
      const person1 = new Teacher('rayhan', 222015010, 'teacher', 2999);
 
-     console.log(person1.role);
+     const data = person1.personId;
+     console.log(data);
+    //  console.log(person1.role);
+    //  const newData = person1.ModifyId();
+    //  console.log(newData);
 
     // const person1 = new Person('rayhan', 222015010)
     // const person2 = new Person('sadman', 222015011)
