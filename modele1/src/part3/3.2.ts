@@ -18,9 +18,6 @@
             this.id = id;
             this.dueAmount = due;
         }
-
-
-
         pay(): void{
 
         }
