@@ -6,8 +6,6 @@
         getBill(): void;
         printInfo() : void;
     };
-
-
     class Student implements StudentInterface{
         name : string;
         private id: number;
